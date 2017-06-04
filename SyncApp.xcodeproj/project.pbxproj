@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6ACBCC1EA7FF140010F902 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6ACBCB1EA7FF140010F902 /* GoogleService-Info.plist */; };
+		3173BD192EE3F086550724EC /* Pods_SyncApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4E07942033E1B58096354 /* Pods_SyncApp.framework */; };
+		3A097C071EA7D10C00CB6E96 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A097C061EA7D10C00CB6E96 /* LabelCell.swift */; };
+		3A097C091EA7D16700CB6E96 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A097C081EA7D16700CB6E96 /* TextFieldCell.swift */; };
+		3A097C0B1EA7D1A200CB6E96 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A097C0A1EA7D1A200CB6E96 /* SwitchCell.swift */; };
+		3A097C0F1EA7D42900CB6E96 /* PickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A097C0E1EA7D42900CB6E96 /* PickerCell.swift */; };
+		3A097C121EA7E01200CB6E96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A097C111EA7E01200CB6E96 /* Model.swift */; };
 		3A6367751EA6CD750005CB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6367741EA6CD750005CB9B /* AppDelegate.swift */; };
 		3A6367771EA6CD750005CB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6367761EA6CD750005CB9B /* ViewController.swift */; };
 		3A63677A1EA6CD750005CB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6367781EA6CD750005CB9B /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E6ACBCB1EA7FF140010F902 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31B4E07942033E1B58096354 /* Pods_SyncApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyncApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A097C061EA7D10C00CB6E96 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		3A097C081EA7D16700CB6E96 /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		3A097C0A1EA7D1A200CB6E96 /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		3A097C0E1EA7D42900CB6E96 /* PickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerCell.swift; sourceTree = "<group>"; };
+		3A097C111EA7E01200CB6E96 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3A6367711EA6CD750005CB9B /* SyncApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6367741EA6CD750005CB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6367761EA6CD750005CB9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,8 @@
 		3A6367901EA6CD750005CB9B /* SyncAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6367941EA6CD750005CB9B /* SyncAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncAppUITests.swift; sourceTree = "<group>"; };
 		3A6367961EA6CD750005CB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2414E68FF932D40F839F4E /* Pods-SyncApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyncApp/Pods-SyncApp.debug.xcconfig"; sourceTree = "<group>"; };
+		96064B0F72AEAF1E6A31B5DF /* Pods-SyncApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyncApp/Pods-SyncApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3173BD192EE3F086550724EC /* Pods_SyncApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E9C946DE2EA7FD1FFD1FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F2414E68FF932D40F839F4E /* Pods-SyncApp.debug.xcconfig */,
+				96064B0F72AEAF1E6A31B5DF /* Pods-SyncApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A097C051EA7CCC900CB6E96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A097C061EA7D10C00CB6E96 /* LabelCell.swift */,
+				3A097C081EA7D16700CB6E96 /* TextFieldCell.swift */,
+				3A097C0A1EA7D1A200CB6E96 /* SwitchCell.swift */,
+				3A097C0E1EA7D42900CB6E96 /* PickerCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		3A097C101EA7E00100CB6E96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A097C111EA7E01200CB6E96 /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3A6367681EA6CD750005CB9B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,8 @@
 				3A6367881EA6CD750005CB9B /* SyncAppTests */,
 				3A6367931EA6CD750005CB9B /* SyncAppUITests */,
 				3A6367721EA6CD750005CB9B /* Products */,
+				14E9C946DE2EA7FD1FFD1FAA /* Pods */,
+				3F9B1362A893905E1398996D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +144,15 @@
 		3A6367731EA6CD750005CB9B /* SyncApp */ = {
 			isa = PBXGroup;
 			children = (
+				3A097C101EA7E00100CB6E96 /* Model */,
+				3A097C051EA7CCC900CB6E96 /* Cell */,
 				3A6367741EA6CD750005CB9B /* AppDelegate.swift */,
 				3A6367761EA6CD750005CB9B /* ViewController.swift */,
 				3A6367781EA6CD750005CB9B /* Main.storyboard */,
 				3A63677B1EA6CD750005CB9B /* Assets.xcassets */,
 				3A63677D1EA6CD750005CB9B /* LaunchScreen.storyboard */,
 				3A6367801EA6CD750005CB9B /* Info.plist */,
+				0E6ACBCB1EA7FF140010F902 /* GoogleService-Info.plist */,
 			);
 			path = SyncApp;
 			sourceTree = "<group>";
@@ -125,6 +175,14 @@
 			path = SyncAppUITests;
 			sourceTree = "<group>";
 		};
+		3F9B1362A893905E1398996D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B4E07942033E1B58096354 /* Pods_SyncApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A6367991EA6CD750005CB9B /* Build configuration list for PBXNativeTarget "SyncApp" */;
 			buildPhases = (
+				55BD0121C39C689F3AFBAA90 /* [CP] Check Pods Manifest.lock */,
 				3A63676D1EA6CD750005CB9B /* Sources */,
 				3A63676E1EA6CD750005CB9B /* Frameworks */,
 				3A63676F1EA6CD750005CB9B /* Resources */,
+				EB641566766016893A2B6409 /* [CP] Embed Pods Frameworks */,
+				92E8344EC7F352EAFC98076D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +254,7 @@
 				TargetAttributes = {
 					3A6367701EA6CD750005CB9B = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9BES9T5686;
 						ProvisioningStyle = Automatic;
 					};
 					3A6367841EA6CD750005CB9B = {
@@ -233,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A63677F1EA6CD750005CB9B /* LaunchScreen.storyboard in Resources */,
+				0E6ACBCC1EA7FF140010F902 /* GoogleService-Info.plist in Resources */,
 				3A63677C1EA6CD750005CB9B /* Assets.xcassets in Resources */,
 				3A63677A1EA6CD750005CB9B /* Main.storyboard in Resources */,
 			);
@@ -254,13 +317,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55BD0121C39C689F3AFBAA90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92E8344EC7F352EAFC98076D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncApp/Pods-SyncApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB641566766016893A2B6409 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncApp/Pods-SyncApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A63676D1EA6CD750005CB9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A097C121EA7E01200CB6E96 /* Model.swift in Sources */,
 				3A6367771EA6CD750005CB9B /* ViewController.swift in Sources */,
+				3A097C071EA7D10C00CB6E96 /* LabelCell.swift in Sources */,
 				3A6367751EA6CD750005CB9B /* AppDelegate.swift in Sources */,
+				3A097C091EA7D16700CB6E96 /* TextFieldCell.swift in Sources */,
+				3A097C0B1EA7D1A200CB6E96 /* SwitchCell.swift in Sources */,
+				3A097C0F1EA7D42900CB6E96 /* PickerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +528,13 @@
 		};
 		3A63679A1EA6CD750005CB9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2414E68FF932D40F839F4E /* Pods-SyncApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BES9T5686;
 				INFOPLIST_FILE = SyncApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jingsi.SyncApp;
+				PRODUCT_BUNDLE_IDENTIFIER = RaspberryPiProject.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,11 +542,13 @@
 		};
 		3A63679B1EA6CD750005CB9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96064B0F72AEAF1E6A31B5DF /* Pods-SyncApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BES9T5686;
 				INFOPLIST_FILE = SyncApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jingsi.SyncApp;
+				PRODUCT_BUNDLE_IDENTIFIER = RaspberryPiProject.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -507,6 +627,7 @@
 				3A63679B1EA6CD750005CB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A63679C1EA6CD750005CB9B /* Build configuration list for PBXNativeTarget "SyncAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +636,7 @@
 				3A63679E1EA6CD750005CB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A63679F1EA6CD750005CB9B /* Build configuration list for PBXNativeTarget "SyncAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +645,7 @@
 				3A6367A11EA6CD750005CB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
